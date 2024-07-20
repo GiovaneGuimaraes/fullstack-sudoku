@@ -1,0 +1,21 @@
+{
+  "name": "sudoku-db-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index",
+  "scripts": {
+    "sync": "tsx src/index.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.9.9",
+    "sequelize": "^6.37.3",
+    "sequelize-typescript": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/validator": "^13.11.9",
+    "dotenv": "^16.4.5",
+    "sequelize-cli": "^6.6.2",
+    "tsx": "^4.6.2"
+  }
+}

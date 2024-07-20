@@ -1,0 +1,33 @@
+.ranking-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rankings {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+  }
+  
+  .ranking-section {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 40px;
+    width: 300px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #e9ecef;
+  }

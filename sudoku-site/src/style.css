@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin-left: 10vh;
+}
+
+.header h1 a {
+  text-decoration: none; 
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-right: 10vh;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: auto; 
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav button {
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+nav button:hover {
+  text-decoration: underline;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 20px 0;
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto; 
+}
+
+.Jogo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo dos elementos quando o jogo não está iniciado */
+.Jogo select,
+.Jogo button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Jogo button {
+  background-color: #993399;
+  color: white;
+  border: none;
+}
+
+.Jogo button:hover {
+  background-color: #723172;
+}
+
+.Jogo label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.Jogo p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.Jogo .board input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.Jogo .board input[readonly] {
+  background-color: #e9ecef;
+}
+
+.cadastro {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.cadastro .form-group {
+  margin-bottom: 15px;
+}
+
+.cadastro .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.cadastro .form-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cadastro button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cadastro button:hover {
+  background-color: #0056b3;
+}
+
+.login {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.login .form-group {
+  margin-bottom: 15px;
+}
+
+.login .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login .form-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #0056b3;
+}
